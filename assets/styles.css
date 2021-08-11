@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  text-align: center;
+}
+
+.username {
+  color: #252525;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.description {
+  color: #252525;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.linktree-pic {
+  width: 120px;
+  height: 120px;
+  background-image: url("./img/zenitsu.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 20%;
+
+  border-radius: 190px;
+}
+
+
+.link_btn {
+  width: 50%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: #ffa500;
+  cursor: pointer;
+  border: none;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  transition: .2s ease;
+}
+
+.link_btn:hover {
+  border: 2px solid #ffa500;
+  background: #fff;
+  color: #ffa500;
+  transition: .2s ease;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* It was #f31b79 */
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:1200px) {
+  .link_btn {
+    width: 98%;
+  }
+}
